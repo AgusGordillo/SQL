@@ -35,4 +35,4 @@ SET promedio = total_llamadas / total_dias;
 RETURN promedio;
 END $$
 
-SELECT promedio_llamadas ();CREATE FUNCTION llamadaxrac (empleado int) RETURNS table  (id_llamada int,  fecha_hora datetime)  READS sql data BEGIN declare resultado int; select id_llamada from llamadas where empleado = empleado into resultado ; RETURN resultado; END
+SELECT promedio_llamadas ();
